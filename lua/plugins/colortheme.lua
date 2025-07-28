@@ -1,4 +1,4 @@
-return {
+return { -- Colortheme github repo: https://github.com/rebelot/kanagawa.nvim?tab=readme-ov-file#color-palette
   'rebelot/kanagawa.nvim',
   priority = 1000, -- carregar antes de outros plugins
   lazy = false,
