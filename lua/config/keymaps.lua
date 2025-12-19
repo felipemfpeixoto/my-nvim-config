@@ -7,3 +7,6 @@ vim.keymap.set("n", "d", '"_d', { noremap = true, silent = true })
 vim.keymap.set("n", "dd", '"_dd', { noremap = true, silent = true })
 vim.keymap.set("n", "D", '"_D', { noremap = true, silent = true })
 vim.keymap.set("x", "d", '"_d', { noremap = true, silent = true })
+
+-- Select all
+vim.keymap.set("n", "<C-a>", "gg<S-v>G")
