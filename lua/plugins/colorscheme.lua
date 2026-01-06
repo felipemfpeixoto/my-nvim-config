@@ -31,9 +31,14 @@ return {
           light = "lotus",
         },
       })
-
-      -- aplica o colorscheme
-      vim.cmd("colorscheme kanagawa")
     end,
+  },
+  { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
+  -- 2) Diz pro LazyVim qual tema aplicar
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "moonfly", -- exatamente o nome do :colorscheme
+    },
   },
 }
