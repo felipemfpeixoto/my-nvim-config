@@ -134,6 +134,8 @@ return {
         "typescript",
         "vim",
         "yaml",
+        "c_sharp",
+        "razor",
       },
     },
   },
@@ -186,6 +188,10 @@ return {
   {
     "williamboman/mason.nvim",
     opts = {
+      registries = {
+        "github:mason-org/mason-registry",
+        "github:Crashdummyy/mason-registry",
+      },
       ensure_installed = {
         "stylua",
         "shellcheck",
