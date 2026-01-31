@@ -38,7 +38,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "moonfly", -- exatamente o nome do :colorscheme
+      colorscheme = "kanagawa", -- exatamente o nome do :colorscheme
     },
   },
 }

@@ -10,3 +10,6 @@ vim.keymap.set("x", "d", '"_d', { noremap = true, silent = true })
 
 -- Select all
 vim.keymap.set("n", "<C-a>", "gg<S-v>G")
+
+vim.keymap.set("n", "<leader>o", "o<Esc>")
+vim.keymap.set("n", "<leader>O", "O<Esc>")
