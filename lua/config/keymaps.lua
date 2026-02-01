@@ -13,3 +13,7 @@ vim.keymap.set("n", "<C-a>", "gg<S-v>G")
 
 vim.keymap.set("n", "<leader>o", "o<Esc>")
 vim.keymap.set("n", "<leader>O", "O<Esc>")
+
+vim.keymap.set("n", "<leader>gp", ":Gitsigns preview_hunk<CR>", {})
+vim.keymap.set("n", "<leader>gt", ":Gitsigns toggle_current_line_blame<CR>", {})
+vim.keymap.set("n", "<leader>gb", ":Git blame<CR>", {})
