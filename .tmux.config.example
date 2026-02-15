@@ -50,6 +50,9 @@ set -g @themepack 'powerline/default/cyan'
 
 set -g @resurrect-capture-pane-contents 'on'
 set -g @continuum-restore 'on'
+#
+# Iniciar a numeração das janelas em 1
+set -g base-index 1
 
 # Other examples:
 # set -g @plugin 'github_username/plugin_name'
@@ -59,4 +62,3 @@ set -g @continuum-restore 'on'
 
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run '~/.tmux/plugins/tpm/tpm'
-
